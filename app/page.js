@@ -1,6 +1,5 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import Link from "next/link"
 
 const dummyUsers = [
   { rank: 1, username: 'MINI', force: 22.596, sv: 'SV-7241-4083' },
@@ -16,11 +15,6 @@ const dummyUsers = [
 export default function Home() {
   return (
     <main>
-      <div className="navbar">
-        <Link href="/">Ranking</Link>
-        <Link href="/dist">VF Distribution</Link>
-      </div>
-      
       <h1 style={{ textAlign: "center" }}>Game Ranking Board</h1>
       <table className={ styles.Ranking }>
         <thead>
