@@ -25,6 +25,7 @@ export default function RootLayout({ children }) {
         <div className="navbar">
           <Link href="/">Ranking</Link>
           <Link href="/dist">VF Distribution</Link>
+          <Link href="/profile">Profile</Link>
         </div>
         {children}
       </body>
